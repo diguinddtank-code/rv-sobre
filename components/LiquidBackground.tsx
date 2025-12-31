@@ -2,28 +2,6 @@ import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Vector2 } from 'three';
 
-// Fix for TypeScript not recognizing R3F elements in JSX
-// We declare in both global and module scope to ensure compatibility
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      mesh: any;
-      planeGeometry: any;
-      shaderMaterial: any;
-    }
-  }
-}
-
-declare module 'react' {
-  namespace JSX {
-    interface IntrinsicElements {
-      mesh: any;
-      planeGeometry: any;
-      shaderMaterial: any;
-    }
-  }
-}
-
 // Vertex Shader: Handles the wave displacement
 const vertexShader = `
   varying vec2 vUv;

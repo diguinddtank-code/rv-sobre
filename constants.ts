@@ -12,6 +12,26 @@ export const LINKS: LinkItem[] = [
     mobileImage: 'https://i.imgur.com/vz5DC0h.png'
   },
   {
+    id: 'pickleball-bh',
+    label: 'Pickleball BH',
+    subLabel: 'Arena & Comunidade',
+    description: 'Plataforma digital vibrante para o ecossistema de Pickleball. Design energético focado em reservas de quadras, divulgação de torneios e engajamento da comunidade esportiva.',
+    category: 'Web Design',
+    url: 'https://pickleball-bh.vercel.app/',
+    image: 'https://i.imgur.com/V1hUffG.png',
+    mobileImage: 'https://i.imgur.com/V1hUffG.png'
+  },
+  {
+    id: 'clinica-eleve',
+    label: 'Clínica Eleve',
+    subLabel: 'Odontologia Estética',
+    description: 'Website sofisticado para clínica odontológica de alto padrão. Interface clean e humanizada, estruturada para transmitir autoridade e converter visitantes em agendamentos.',
+    category: 'Web Design',
+    url: 'https://clinicaeleve.vercel.app/',
+    image: 'https://i.imgur.com/6aWJoAs.png',
+    mobileImage: 'https://i.imgur.com/6aWJoAs.png'
+  },
+  {
     id: 'bilu',
     label: 'Bilu Soccer Academy',
     subLabel: 'Landing Page Esportiva',
